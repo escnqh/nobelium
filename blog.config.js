@@ -1,11 +1,11 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-10 18:57:30
+ * @LastEditTime: 2023-01-10 19:10:08
  * @FilePath: /nobelium/blog.config.js
  */
 const BLOG = {
-  title: 'CRAIGARY',
+  title: 'Blog of Peelson',
   author: 'Peelson',
   email: 'peelson@peelson.cn',
   link: 'https://peelsonx.com',
