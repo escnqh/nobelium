@@ -15,9 +15,6 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
-          <p>
-            做自己的快速跑车
-          </p>
         </div>
       </div>
     </div>
