@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-10 18:54:09
+ * @LastEditTime: 2023-01-10 18:57:30
  * @FilePath: /nobelium/blog.config.js
  */
 const BLOG = {
@@ -15,7 +15,7 @@ const BLOG = {
   font: 'sans-serif', // ['sans-serif', 'serif']ain
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
-  path: '/post', // leave this empty unless you want to deploy Nobelium in a folder
+  path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2023, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: true,
