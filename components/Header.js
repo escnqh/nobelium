@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-10 23:33:32
+ * @LastEditTime: 2023-01-11 00:12:37
  * @FilePath: /nobelium/components/Header.js
  */
 import { useEffect, useRef } from 'react'
@@ -86,7 +86,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
               )
             : (
             <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {BLOG.title},{' '}
+              {' - '},{BLOG.title},{' '}
               <span className="font-normal">{BLOG.description}</span>
             </p>
               )}
