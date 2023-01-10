@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-10 18:31:37
+ * @LastEditTime: 2023-01-10 18:54:09
  * @FilePath: /nobelium/blog.config.js
  */
 const BLOG = {
@@ -9,10 +9,10 @@ const BLOG = {
   author: 'Peelson',
   email: 'peelson@peelson.cn',
   link: 'https://peelsonx.com',
-  description: 'This gonna be an awesome website.',
+  description: 'This website of Peelson.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
-  font: 'sans-serif', // ['sans-serif', 'serif']
+  font: 'sans-serif', // ['sans-serif', 'serif']ain
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '/post', // leave this empty unless you want to deploy Nobelium in a folder
