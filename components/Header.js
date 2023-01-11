@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-11 11:24:58
+ * @LastEditTime: 2023-01-11 11:36:00
  * @FilePath: /nobelium/components/Header.js
  */
 import { useEffect, useRef } from 'react'
@@ -15,7 +15,8 @@ const NavBar = () => {
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 2, name: locale.NAV.SEARCH, to: '/search', show: true },
-    { id: 3, name: locale.NAV.RSS, to: '/feed', show: true }
+    { id: 3, name: locale.NAV.RSS, to: '/feed', show: true },
+    { id: 4, name: 'Test Memos', to: '/memos', show: true}
   ]
   return (
     <div className="flex-shrink-0">
