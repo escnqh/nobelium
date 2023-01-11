@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-11 00:14:52
+ * @LastEditTime: 2023-01-11 11:24:58
  * @FilePath: /nobelium/components/Header.js
  */
 import { useEffect, useRef } from 'react'
@@ -75,7 +75,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className="flex items-center">
           <Link href="/">
             <a aria-label={BLOG.title}>
-            <div className="text-black dark:text-gray-50 site-title">Peelson&lsquo;s blog</div>
+            <div className="text-black dark:text-gray-50 site-title">Peelson&acute;s blog</div>
             </a>
           </Link>
           {navBarTitle

@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-01-10 18:25:47
  * @LastEditors: Peelson github@peelson.cn
- * @LastEditTime: 2023-01-10 22:29:15
+ * @LastEditTime: 2023-01-11 11:19:23
  * @FilePath: /nobelium/blog.config.js
  */
 const BLOG = {
@@ -9,7 +9,7 @@ const BLOG = {
   author: 'Peelson',
   email: 'peelson@peelson.cn',
   link: 'https://peelsonx.com',
-  description: 'This website of Peelson.',
+  description: 'Blog of Peelson.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']ain
